@@ -1,64 +1,85 @@
 <h1 align="center">
-    Ecommerce
-</h1>
+    E-commerce Angular
+</h1>   
+
+## 📋 Sobre o Projeto
+
+Este é um projeto de E-commerce que está sendo desenvolvido em Angular com funcionalidades como listagem de produtos, carrinho de compras dinâmico e integração com API de pagamentos. O objetivo é criar uma plataforma de compras online funcional e moderna.
 
 
-# 
+## 🚧 Status do Projeto
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+🛠️ Em desenvolvimento – funcionalidades iniciais estão sendo implementadas.
 
-## Development server
 
-To start a local development server, run:
+## ✨ Funcionalidades Planejadas  
 
-```bash
+- **Listagem de produtos:** Exibe produtos com filtros por categorias.   
+- **Carrinho de Compras Dinâmico:** Permite adicionar, remover e visualizar produtos no carrinho.   
+- **Página de Checkout:** Integração com uma API de pagamentos para finalizar compras.   
+- **Rotas do Angular:** Navegação entre págionas de forma eficiente.   
+- **Estilização Moderna:** Cartões de produtos estilizados com animações hover.   
+- **Responsividade:** Layout adaptado para diferentes dispositivos.   
+
+## Tecnologias Utilizadas   
+
+- **Angular:** Framework principal para o desenvolvimento da aplicação.   
+- **Angular Material:** Componentes de UI modernos.   
+- **CSS:** Estilização personalisada.   
+- **API de Pagamentos:** Integração com uma API gratuita para processar pagamentos.   
+- **Git:** Controle de versão.   
+- **Vercel:** Deploy da aplicação.
+
+
+## 📁 Estrutura do Projeto   
+
+```   
+ecommerce-angular/
+├── src/
+│   ├── app/
+│   │   ├── products/    # Módulo de produtos
+│   │   ├── cart/        # Módulo de carrinho
+│   │   ├── checkout/    # Módulo de checkout
+│   │   ├── shared/      # Componentes e serviços compartilhados
+│   ├── assets/          # Imagens e recursos estáticos
+│   ├── environments/    # Configurações de ambiente
+├── angular.json         # Configuração do Angular CLI
+├── package.json         # Dependências do projeto
+├── README.md            # Documentação do projeto
+```   
+
+
+## 🚀 Como Rodar o Projeto   
+
+1. Clone este repositório:   
+
+```   
+git clone https://github.com/Gilvan-R-A/ecommerce-website
+```   
+
+2. Navegue até o diretório do projeto:   
+
+```   
+cd ecommerce
+```   
+
+3. Instale as dependências:   
+
+```   
+npm install
+```   
+
+4. Inicie o servidor de desenvolvimento:   
+
+```   
 ng serve
-```
+```   
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acesse a aplicação em Http://localhost:4200   
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 📮 Feedbacks e Contribuições   
 
-```bash
-ng generate component component-name
-```
+Este projeto está em fase inicial e feedbacks são sempre ben-vindos! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
